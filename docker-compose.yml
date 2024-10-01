@@ -115,8 +115,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        FEATURES: ""
     image: appflowyinc/appflowy_cloud:${APPFLOWY_CLOUD_VERSION:-latest}
 
   admin_frontend:
